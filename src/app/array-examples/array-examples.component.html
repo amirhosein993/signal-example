@@ -1,0 +1,11 @@
+<div class="flex flex-row align-middle justify-center mx-auto mt-2.5">
+  <button class="btn btn-success mx-5" (click)="createArraySignal()">
+    Create Array Signal
+  </button>
+  <button class="btn btn-success mx-5" (click)="mutateArray()">
+    Mutate Array
+  </button>
+  <p class="text-primary mx-5" *ngFor="let item of numbers()">
+    {{item}}
+  </p>
+</div>
